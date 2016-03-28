@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My pomodoro app</h1>
+    <h2>Doing</h2>
+    <form>
+      <div class="form-group">
+        <label for="task"></label>
+        <input type="text" id="task" class="form-control">
+      </div>
+    </form>
+    <div id="controls">
+      <p class="time">0:00</p>
+      <button type="button" id="play" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+      </button>
+      <button type="button" id="pause" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+      </button>
+      <button type="button" id="stop" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+      </button>
+    </div>
+    <h2>Done</h2>
+    <ul id="done" class="list-group">
+      <li class="list-group-item"><s>exemple</s></li>
+      <li class="list-group-item"><s>exemple</s></li>
+      <li class="list-group-item"><s>exemple</s></li>
+    </ul>
+  </div>
+  <script src="js/jquery-2.2.2.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

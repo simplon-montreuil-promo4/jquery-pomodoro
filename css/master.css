@@ -1,0 +1,18 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: red;
+  text-transform: uppercase;
+}
+
+#controls {
+  text-align: center;
+}
+
+.time {
+  font-weight: bold;
+  font-size: 3em;
+}
